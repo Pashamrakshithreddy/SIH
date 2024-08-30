@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Coding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn Coding</h1>
+        <div class="questions">
+            <h2>CSS Questions</h2>
+            <div class="question">
+                <p>1. Style the heading and paragraph with CSS.</p>
+                <textarea id="css-question-1" rows="10" cols="50">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Example Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to My Page&lt;/h1&gt;
+    &lt;p&gt;This is a sample paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </textarea>
+                <button onclick="runHTMLCode(1)">Run Code</button>
+                <div id="html-output-1" class="output"></div>
+            </div>
+
+            <h2>CSS Questions</h2>
+            <div class="question">
+                <p>1. Style the heading and paragraph with CSS.</p>
+                <textarea id="css-question-1" rows="10" cols="50">
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+}
+                </textarea>
+                <button onclick="runCSSCode(1)">Run Code</button>
+                <div id="css-output-1" class="output"></div>
+            </div>
+
+            <h2>JavaScript Questions</h2>
+            <div class="question">
+                <p>1. Write a JavaScript function to display an alert with the message "Hello, World!".</p>
+                <textarea id="js-question-1" rows="10" cols="50">
+function showAlert() {
+    alert("Hello, World!");
+}
+
+showAlert();
+                </textarea>
+                <button onclick="runJSCode(1)">Run Code</button>
+                <div id="js-output-1" class="output"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
